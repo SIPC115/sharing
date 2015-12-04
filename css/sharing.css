@@ -1,0 +1,117 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font: normal 16px/1.8 "Segoe UI Light", "Lucida Grande", "Microsoft Jhenghei", "Microsoft Yahei", Arial, Helvetica, Sans-Serif;
+    padding-left: 2em;
+    background: #f1f1f1;
+    color: #666;
+}
+h1, h2, h3 {
+    font-weight: normal;
+    font-family: "Segoe UI Light", "Segoe UI", "Helvetica Neue Light", "Microsoft Jhenghei", "Microsoft Yahei", Sans-Serif;
+    color: #666666;
+}
+@media screen and (min-width: 780px){
+    h1 {
+        font-size: 400%;
+        margin: .3em 0;
+    }
+    .boxes {
+        overflow: hidden;
+        margin: 0 -24px;
+        padding-left: 40px;
+    }
+    .box {
+        margin: 0 5% 10% 0;
+        padding: 16px;
+        float: left;
+        display: block;
+        width: 16%;
+        height: 185px;
+        background-color: #252527;
+        overflow: hidden;
+        text-align: center;
+    }
+}
+@media screen and (max-width: 780px){
+    h1 {
+        font-size: 200%;
+        margin: 1em 0;
+    }
+    .boxes {
+        overflow: hidden;
+    }
+    .box {
+        margin: 0 7% 10% 0;
+        padding: 20px;
+        float: left;
+        display: block;
+        width: 30%;
+        height: 185px;
+        background-color: #252527;
+        overflow: hidden;
+        text-align: center;
+    }
+}
+@media screen and (max-width: 493px){
+    body {
+        padding-left: 0;
+    }
+    h1 {
+        font-size: 200%;
+        margin: 0.2em 20% 0.2em 7%;
+    }
+    .box {
+        margin: 0 8% 10% 8%;
+        padding: 20px;
+        float: left;
+        display: block;
+        width: calc( 84% - 2em);
+        height: 185px;
+        background-color: #252527;
+        overflow: hidden;
+        text-align: center;
+    }
+}
+a{
+    text-decoration: none;
+}
+ul {
+   list-style: none;
+}
+.doc {
+    margin: 0 auto;
+    max-width: 1200px;
+    min-height: 800px;
+    overflow: hidden;
+}
+.title {
+    color: #fff;
+    color: rgba(255,255,255,0.7);
+    max-height: 84px;
+    overflow: hidden;
+    margin-top: 10%;
+    margin-bottom: 15%;
+    transition: color 0.3s ease-out;
+}
+.subtitle {
+    color: rgba(255,255,255,0.4);
+    transition: color 0.3s ease-out;
+}
+.box:nth-child(5n) {
+    background-color: #0F3A4B;
+}
+.box:nth-child(5n+4) {
+    background-color: #65333F;
+}
+.box:nth-child(5n+3) {
+    background-color: #5D0F05;
+}
+.box:nth-child(5n+2) {
+    background-color: #CE790E;
+}
+.box:nth-child(5n+1) {
+    background-color: #1C2123;
+}
