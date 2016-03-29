@@ -11,3 +11,4 @@
 8. [前端基础之JavaScript第二讲](http://sipc115.github.io/sharing/share/course-8/index.html) 时间：2016-03-19 作者：[Jorten](https://github.com/5606595)
 9. [前端基础之JavaScript第三讲](http://sipc115.github.io/sharing/share/course-9/index.html) 时间：2016-03-21 作者：[Jorten](https://github.com/5606595)
 10. [前端基础之JavaScript第四讲](http://sipc115.github.io/sharing/share/course-10/index.html) 时间：2016-03-27 作者：[Jorten](https://github.com/5606595)
+11. [前端基础之JavaScript第五讲](http://sipc115.github.io/sharing/share/course-11/index.html) 时间：2016-03-29 作者：[Jorten](https://github.com/5606595)
